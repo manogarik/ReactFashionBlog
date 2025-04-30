@@ -1,7 +1,7 @@
 import React from "react";
 export default function Nav()
 {
-    <nav aria-label="Main Navigation" role="navigation">
+    return(<nav aria-label="Main Navigation" role="navigation">
             <ul className="navi">
                 
                 <li><a href="...">Women's</a></li>
@@ -12,5 +12,6 @@ export default function Nav()
                 <li><a href="...">About</a></li>
                
             </ul>
-        </nav>
+     </nav>
+    )
 }
